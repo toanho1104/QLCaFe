@@ -1,0 +1,6 @@
+C:\Users\toanh\Desktop\doan1\QuanLyCaFe\KN\bin\Debug\KN.dll.config
+C:\Users\toanh\Desktop\doan1\QuanLyCaFe\KN\bin\Debug\KN.dll
+C:\Users\toanh\Desktop\doan1\QuanLyCaFe\KN\bin\Debug\KN.pdb
+C:\Users\toanh\Desktop\doan1\QuanLyCaFe\KN\obj\Debug\KN.csprojResolveAssemblyReference.cache
+C:\Users\toanh\Desktop\doan1\QuanLyCaFe\KN\obj\Debug\KN.dll
+C:\Users\toanh\Desktop\doan1\QuanLyCaFe\KN\obj\Debug\KN.pdb

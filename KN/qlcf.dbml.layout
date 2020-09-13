@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 10.25" name="qlcf">
+  <DataContextMoniker Name="/qlcfDataContext" />
+  <nestedChildShapes>
+    <classShape Id="9724c51b-b499-40d6-8c6c-fdc4b22f3a66" absoluteBounds="0.75, 1.375, 2, 1.3862939453125003">
+      <DataClassMoniker Name="/qlcfDataContext/Ban" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e93ff95c-e923-4b15-89bf-50061aa7e1f6" absoluteBounds="0.765, 1.835, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="475a510e-33aa-4484-9780-8c93386f9ddc" absoluteBounds="0.75, 8.5, 2, 1.1939925130208344">
+      <DataClassMoniker Name="/qlcfDataContext/ThucDon" />
+      <nestedChildShapes>
+        <elementListCompartment Id="bd56a76d-a22a-4a9f-ade0-e4e1f173c0c8" absoluteBounds="0.765, 8.96, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="37c77632-e9d3-41fa-8510-2bcc8923c73f" absoluteBounds="6.25, 1.375, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/qlcfDataContext/ChiTietHoaDon" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c7e85804-cd96-48c8-854e-a90c196bf94a" absoluteBounds="6.265, 1.835, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="67839c8c-f10b-4b68-8d4c-54929a90263d" absoluteBounds="3.5, 1, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/qlcfDataContext/HoaDon" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2450c000-7469-4b6a-ac2c-65f3967349ee" absoluteBounds="3.515, 1.46, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e968b593-de89-49a0-913e-6daab134d7d8" absoluteBounds="3.5, 8.375, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/qlcfDataContext/Mon" />
+      <nestedChildShapes>
+        <elementListCompartment Id="283e6862-b809-46a0-b73b-551854761792" absoluteBounds="3.515, 8.835, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="dadc7c2c-98f8-4081-b48d-51ad82a8d214" absoluteBounds="0.75, 5.25, 2, 1.7708968098958327">
+      <DataClassMoniker Name="/qlcfDataContext/TaiKhoan" />
+      <nestedChildShapes>
+        <elementListCompartment Id="50fdeef7-a6bf-4d0e-8e39-58fe74290a04" absoluteBounds="0.765, 5.71, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.5 : 2.16429768880208); (6.25 : 2.16429768880208)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/qlcfDataContext/HoaDon/HoaDon_ChiTietHoaDon" />
+      <nodes>
+        <classShapeMoniker Id="67839c8c-f10b-4b68-8d4c-54929a90263d" />
+        <classShapeMoniker Id="37c77632-e9d3-41fa-8510-2bcc8923c73f" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 2.06814697265625); (3.5 : 2.06814697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/qlcfDataContext/Ban/Ban_HoaDon" />
+      <nodes>
+        <classShapeMoniker Id="9724c51b-b499-40d6-8c6c-fdc4b22f3a66" />
+        <classShapeMoniker Id="67839c8c-f10b-4b68-8d4c-54929a90263d" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 9.16429768880208); (7.25 : 9.16429768880208); (7.25 : 2.95359537760417)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/qlcfDataContext/Mon/Mon_ChiTietHoaDon" />
+      <nodes>
+        <classShapeMoniker Id="e968b593-de89-49a0-913e-6daab134d7d8" />
+        <classShapeMoniker Id="37c77632-e9d3-41fa-8510-2bcc8923c73f" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 9.09699625651042); (3.5 : 9.09699625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/qlcfDataContext/ThucDon/ThucDon_Mon" />
+      <nodes>
+        <classShapeMoniker Id="475a510e-33aa-4484-9780-8c93386f9ddc" />
+        <classShapeMoniker Id="e968b593-de89-49a0-913e-6daab134d7d8" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 6.13544840494792); (4.5 : 6.13544840494792); (4.5 : 3.34780110677083)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/qlcfDataContext/TaiKhoan/TaiKhoan_HoaDon" />
+      <nodes>
+        <classShapeMoniker Id="dadc7c2c-98f8-4081-b48d-51ad82a8d214" />
+        <classShapeMoniker Id="67839c8c-f10b-4b68-8d4c-54929a90263d" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
